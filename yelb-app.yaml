@@ -62,11 +62,11 @@ metadata:
   namespace: yelb
 spec:
   type: LoadBalancer
+  loadBalancerIP: 172.20.22.3
   ports:
   - port: 80
     protocol: TCP
     targetPort: 80
-  loadBalancerIP: 172.20.22.3
   selector:
     app: yelb-ui
     tier: frontend
