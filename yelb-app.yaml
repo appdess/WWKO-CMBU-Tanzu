@@ -62,7 +62,7 @@ metadata:
   namespace: yelb
 spec:
   type: LoadBalancer
-  loadBalancerIP: 172.20.22.3
+#  loadBalancerIP: 172.20.22.3
   ports:
   - port: 80
     protocol: TCP
